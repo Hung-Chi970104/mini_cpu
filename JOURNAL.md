@@ -29,3 +29,24 @@ Eventually, I learned how to build a 4-bit adder using all the components above.
 
   
 
+## 10/8/2025 - Plan out ALU adder and build logic gates from scratch  
+
+Plan out logic gates used in the adder![553963461_1541435776890153_311232645113121765_n.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--d32c6b0386dbac5cd2f56249d9dae18b8dcf1c4e/553963461_1541435776890153_311232645113121765_n.jpg)
+
+Later, I built a NOT gate using a transistor, two resistors, and a switch (circuit diagram + actual circuit)
+Challenges:
+- Figuring out how the circuit works in the diagram
+- Converting the diagram to the breadboard
+- Forgot to place resistors in series (accidentally burned an LED)
+- Cleaning up the breadboarding to make it look more aesthetic)
+
+*** Arduino board is only for power supply
+![IMG_0199.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNywicHVyIjoiYmxvYl9pZCJ9fQ==--645c1cd615341f5532ce5732827bf74bc324268f/IMG_0199.jpg)
+
+Pressed (OFF):
+![IMG_0201.PNG](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNSwicHVyIjoiYmxvYl9pZCJ9fQ==--2765385beccdd508fd5bb0dc78709928745fa3cf/IMG_0201.PNG)
+
+Not Pressed (ON)
+![IMG_0202.PNG](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNiwicHVyIjoiYmxvYl9pZCJ9fQ==--4d191bd9dad45a2607b1eafad49c474a7d410b3e/IMG_0202.PNG)
+  
+

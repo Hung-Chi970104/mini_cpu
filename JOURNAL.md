@@ -50,3 +50,25 @@ Not Pressed (ON)
 ![IMG_0202.PNG](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNiwicHVyIjoiYmxvYl9pZCJ9fQ==--4d191bd9dad45a2607b1eafad49c474a7d410b3e/IMG_0202.PNG)
   
 
+## 10/11/2025 - Built And/Or Gates  
+
+# Goal
+I built an And and Or gate, the two fundamental logic gates
+![OrAnd.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--a4c2fb751b9f0ca67fd050e05bb6f5450e91229e/OrAnd.jpg)
+
+### Logic Gates
+- Top left: A simple circuit with transistor
+- Top right: NOT gate
+- Bottom left: AND gate
+- Bottom right: OR gate
+
+### Tinkercad simulation (AND gate)
+- Switch version
+![Screenshot 2025-10-11 024436.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU3MywicHVyIjoiYmxvYl9pZCJ9fQ==--0bb82e67d1a085c8201a85d8d900810ecea50b3d/Screenshot%202025-10-11%20024436.png)
+
+- Button version (dont know why it's buggy)
+![Screenshot 2025-10-11 024455.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTU3NCwicHVyIjoiYmxvYl9pZCJ9fQ==--1753886d68bd3c7e40a0acf98c1606702625880c/Screenshot%202025-10-11%20024455.png)
+
+# Main Challenge
+I spent a lot of time on AND gate because I kept connecting the components to the emitter, which raised the voltage instead of 0V. Later, I went on Youtube and fully understood how transistors work. Eventually, I realized that the base needs to connect to the positive and emitter directly to the ground in order to create the voltage difference between the two.  
+

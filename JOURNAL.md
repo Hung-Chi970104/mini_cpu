@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Building a CPU from scratch**.  
+This is my journal of the design and building process of **Designing a Working CPU with Nothing but Logic Gates**.  
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/273).
 
 
@@ -71,4 +71,23 @@ I built an And and Or gate, the two fundamental logic gates
 
 # Main Challenge
 I spent a lot of time on AND gate because I kept connecting the components to the emitter, which raised the voltage instead of 0V. Later, I went on Youtube and fully understood how transistors work. Eventually, I realized that the base needs to connect to the positive and emitter directly to the ground in order to create the voltage difference between the two.  
+
+## 10/13/2025 - Built NAND/NOR/XOR Gates  
+
+NAND Gate
+![NAND.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--0051978a4717992eaca656344c55363931c8ba26/NAND.jpg)
+
+NOR Gate
+![NOR.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--f4487cc900160fa5f1d7d08aa98b05d348519ccf/NOR.jpg)
+
+XOR Gate
+![XOR.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjE0MiwicHVyIjoiYmxvYl9pZCJ9fQ==--b87737576b7af6baecbeb9f13aa7c8c50674da89/XOR.jpg)
+
+Study:
+- https://www.youtube.com/watch?v=2uowMENwiHQ (teaches you how transistors work internally)
+- https://www.youtube.com/watch?v=sTu3LwpF6XI&t=1s (teaches you how to build XOR gate)
+
+Challenge:
+- Any common-emitter NPN stage needs a load to VCC. If the collector only goes to other transistor collectors/emitters and not to VCC through a resistor (or an active pull-up), it will float. _Always provide a defined output level for every stage_
+- Remember to choose resistors wisely and also remember to do at least a rough calculation on the amount of your desired current and voltage  
 

@@ -91,3 +91,21 @@ Challenge:
 - Any common-emitter NPN stage needs a load to VCC. If the collector only goes to other transistor collectors/emitters and not to VCC through a resistor (or an active pull-up), it will float. _Always provide a defined output level for every stage_
 - Remember to choose resistors wisely and also remember to do at least a rough calculation on the amount of your desired current and voltage  
 
+## 10/19/2025 - Built half-adder and first AND gate with output voltage  
+
+Recently, I built the half-adder that can indicate SUM and CARRY (OUT), this will then be used as the foundation of the full-adder
+![half_adder.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzY0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--5be009474a4467c3febb116341adc855f53a8420/half_adder.jpg)
+
+The half-adder consists of two gates: XOR and AND
+- XOR: for the SUM of a single bit
+- AND: for the OUTPUT CARRY
+
+AND Gate that can output voltage
+![And-out.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzY0MywicHVyIjoiYmxvYl9pZCJ9fQ==--1794aa83753061b3c8408e101ac6e74539983f62/And-out.jpg)
+This version of and gate can output stable voltage, which is better than the previous one
+
+
+### Next
+I am fully prepared to build a full-adder, and I will begin with a 4-bit adder using RTL
+  
+
